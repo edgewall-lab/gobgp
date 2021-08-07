@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bgp"
 )
 
 const (

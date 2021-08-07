@@ -13,15 +13,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"fmt"
 	"net"
 	"strconv"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/pkg/packet/bmp"
+	api "github.com/edgewall-lab/gobgp/api"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bmp"
 	"github.com/spf13/cobra"
 )
 

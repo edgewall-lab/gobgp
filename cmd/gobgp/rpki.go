@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ import (
 	"strconv"
 
 	"github.com/golang/protobuf/ptypes"
-	api "github.com/osrg/gobgp/api"
+	api "github.com/edgewall-lab/gobgp/api"
 	"github.com/spf13/cobra"
 )
 

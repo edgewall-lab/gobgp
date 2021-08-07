@@ -61,5 +61,5 @@ code contributing.
 ## Licensing
 
 GoBGP is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/osrg/gobgp/blob/master/LICENSE) for the full
+[LICENSE](https://github.com/edgewall-lab/gobgp/blob/master/LICENSE) for the full
 license text.

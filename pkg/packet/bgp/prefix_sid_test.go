@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/golang/protobuf/ptypes/any"
-	api "github.com/osrg/gobgp/api"
+	api "github.com/edgewall-lab/gobgp/api"
 )
 
 func TestRoundTripSubSubTLV(t *testing.T) {

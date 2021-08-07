@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"bytes"
@@ -29,10 +29,10 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"github.com/spf13/cobra"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/apiutil"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "github.com/edgewall-lab/gobgp/api"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/apiutil"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/config"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bgp"
 )
 
 // used in showRoute() to determine the width of each column

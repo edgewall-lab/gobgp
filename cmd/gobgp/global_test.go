@@ -13,14 +13,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/osrg/gobgp/internal/pkg/apiutil"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/apiutil"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bgp"
 	"github.com/stretchr/testify/assert"
 )
 

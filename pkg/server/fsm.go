@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/eapache/channels"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	"github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
-	"github.com/osrg/gobgp/pkg/packet/bmp"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/config"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/table"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bgp"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bmp"
 
 	log "github.com/sirupsen/logrus"
 )

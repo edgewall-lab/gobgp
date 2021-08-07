@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/BurntSushi/toml"
-	"github.com/osrg/gobgp/internal/pkg/config"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/config"
 )
 
 func main() {

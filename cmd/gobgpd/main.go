@@ -34,10 +34,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/version"
-	"github.com/osrg/gobgp/pkg/config"
-	"github.com/osrg/gobgp/pkg/server"
+	api "github.com/edgewall-lab/gobgp/api"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/version"
+	"github.com/edgewall-lab/gobgp/pkg/config"
+	"github.com/edgewall-lab/gobgp/pkg/server"
 )
 
 func main() {

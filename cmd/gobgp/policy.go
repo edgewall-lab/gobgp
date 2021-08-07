@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"bytes"
@@ -25,14 +25,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/osrg/gobgp/internal/pkg/apiutil"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/apiutil"
 
 	"github.com/spf13/cobra"
 
-	api "github.com/osrg/gobgp/api"
-	"github.com/osrg/gobgp/internal/pkg/config"
-	table "github.com/osrg/gobgp/internal/pkg/table"
-	"github.com/osrg/gobgp/pkg/packet/bgp"
+	api "github.com/edgewall-lab/gobgp/api"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/config"
+	table "github.com/edgewall-lab/gobgp/helpers/pkg/table"
+	"github.com/edgewall-lab/gobgp/pkg/packet/bgp"
 )
 
 var (

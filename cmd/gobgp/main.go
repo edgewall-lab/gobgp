@@ -13,13 +13,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main
+package cmdgobgp
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/osrg/gobgp/internal/pkg/version"
+	"github.com/edgewall-lab/gobgp/helpers/pkg/version"
 	"google.golang.org/grpc"
 )
 

@@ -16,7 +16,7 @@ if [ ! -v GOPATH ]; then
 fi
 
 if [ ! -v GOBGP ]; then
-    GOBGP=$GOPATH/src/github.com/osrg/gobgp
+    GOBGP=$GOPATH/src/github.com/edgewall-lab/gobgp
 fi
 
 if [ ! -v GOBGP_IMAGE ]; then
